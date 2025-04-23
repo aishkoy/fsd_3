@@ -5,6 +5,6 @@ class Apple extends Fruit {
 
   @override
   String taste() {
-    return 'This $getName() has a sweet and crisp taste';
+    return 'This ${getName()} has a sweet and crisp taste';
   }
 }

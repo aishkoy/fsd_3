@@ -9,6 +9,6 @@ class Manager extends Employee {
 
   @override
   String displayInfo() {
-    return 'Manager: $getName(), Department: $_department, Salary: \$$getSalary()';
+    return 'Manager: ${getName()}, Department: $_department, Salary: \$${getSalary()}';
   }
 }

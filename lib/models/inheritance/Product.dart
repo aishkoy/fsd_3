@@ -5,6 +5,6 @@ class Product extends Item {
 
   @override
   String description() {
-    return 'Product: $getName(), Premium quality, Price: \$$getPrice()';
+    return 'Product: ${getName()}, Premium quality, Price: \$${getPrice()}';
   }
 }

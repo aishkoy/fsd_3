@@ -5,6 +5,6 @@ class PassengerCar extends InheritanceCar {
 
   @override
   String description() {
-    return 'This is a $getMake() passenger car from $getYear() designed for comfort';
+    return 'This is a ${getMake()} passenger car from ${getYear()} designed for comfort';
   }
 }

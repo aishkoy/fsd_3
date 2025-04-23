@@ -5,6 +5,6 @@ class Dog extends Animal {
 
   @override
   String sound() {
-    return '$getName() is $getAge() years old and makes a bark sound: Woof!';
+    return '${getName()} is ${getAge()} years old and makes a bark sound: Woof!';
   }
 }
